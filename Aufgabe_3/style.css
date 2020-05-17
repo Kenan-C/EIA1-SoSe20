@@ -1,0 +1,124 @@
+body {
+    background-image: url(bg.png);
+}
+.Hintergrund {
+    position: relative;
+    color: white;
+    margin: 0 auto;
+    width: 500px;
+    z-index: -1;
+    text-align: center;
+}
+.GrauerKreis {
+    position: relative;
+    display: fixed;
+    margin-top: -200px;
+    width: 500px;
+    margin-bottom: 200px;
+}
+#Ueberschrift{
+    font-family: sans-serif;
+    font-size:75px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 19%
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    position: fixed;
+    top:0;
+    background-color: black;
+    right: 200px;
+    border: solid;
+    border-radius: 0px 0px 10px 10px;
+}
+li{
+    display: inline-block;
+    border-right: 1px solid white;
+}
+#lastref{
+    border-right:none;
+}
+li a{
+    font-family: sans-serif;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+}
+#Ueberschrift2 {
+    font-family: sans-serif;
+    font-size:75px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 16%
+}
+#Ueberschrift3 {
+    font-family: sans-serif;
+    font-size:75px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 22%
+}
+h3 {
+    color: orange;
+    font-family: sans-serif;
+    font-size: 25pt;
+    position: relative;
+    left:200px;
+    top: 20 px;
+}
+.Bilder {
+    position: relative;
+    left: 250px;
+    right: 250px;
+    top: 50px;
+}
+#Ueberschrift4{
+    color: orange;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25pt;
+    position: relative;
+    left:200px;
+    top: 20 px;
+}
+.Kontaktformular {
+    position: relative;
+    left: 200px;
+    top: 25px;
+    padding:10px;
+    background:white;
+    text-align: left;
+    width: 100px;
+    font-family: sans-serif;
+    color: black;
+}
+#Datenschutz{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    font-family: sans-serif;
+    color: orange;
+    font-size: 11pt;
+    font-weight: bold;
+    text-align: left;
+}
+#Absenden{
+    position: relative;
+    left: 200px;
+    top: 70px;
+    padding:10px;
+    background:white;
+    text-align: center;
+    width: 100px;
+    font-family: sans-serif;
+    color: black;
+}
