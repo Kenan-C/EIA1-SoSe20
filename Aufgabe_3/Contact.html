@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <nav> 
+            <ul id="navigation">
+                <li><a href="Startseite.html">Portfolio</a></li>
+                <li><a href="AboutMe.html">About Me</a></li>
+                <li><a class="action" id="lastref" href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="Kreis"></div>
+
+        <div id="Inhalt">
+            <h1 id="Ueberschrift1">portfolio</h1>
+            <h2 id="Name">Kenan Coskun</h2>
+            <p id="Text">Falls du etwas schreiben möchtest, unten findest du ein Kontaktformular</p>
+        </div>
+
+        <div id="face">
+            <a href="#"><img src="icon_facebook.png"></a>
+        </div>
+
+    </header>
+
+    <main>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend> <h2>KONTAKT</h2></legend><br>
+                <label for="fname">Vorname:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Nachname:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="Email">E-Mail:</label><br>
+                <input type="text" id="Email" name="Email"><br><br>
+                <label for="Text">Nachricht:</label><br>
+                <textarea name="Nachricht" rows="10" cols="30">Schreiben Sie hier Ihre Nachricht</textarea><br>
+                <p> Mit Absenden der Nachricht bestätige ich den Datenschutz </p>
+                <input type="submit" value="Absenden">
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
