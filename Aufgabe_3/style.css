@@ -31,9 +31,9 @@ body {
 /* Icon */
 
 #face{
-    position: absolute;
-    top: 10px;
-    left: 620px;
+    position: relative;
+    top: -435px;
+    left: 400px;
     z-index: auto;
 }
 #face:hover{
