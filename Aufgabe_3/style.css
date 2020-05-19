@@ -66,6 +66,10 @@ body {
     color: white;
     text-align: justify;
 }
+
+h3 {
+    color: gray;
+}
 /* Navigation */
 ul {
     list-style-type: none;
@@ -76,7 +80,7 @@ ul {
     padding:5px;
     border-radius: 0 0 10px 10px;
     overflow: hidden;
-    background-color:black;
+    background-color: black;
 }
 li{
     float:left;
