@@ -31,6 +31,7 @@ body {
 /* Icon */
 
 #face{
+    width:25px;
     position: relative;
     top: -435px;
     left: 400px;
