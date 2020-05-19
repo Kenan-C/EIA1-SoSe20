@@ -34,7 +34,10 @@ body {
     position: absolute;
     top: 10px;
     left: 620px;
-    z-index: 2;
+    z-index: auto;
+}
+#face:hover{
+    filter: opacity(50%);
 }
 
 /* About Me*/
