@@ -134,3 +134,12 @@ fieldset {
     font-family: sans-serif;
     font-weight: bold;
 }
+
+/* Footer */
+
+#Fußzeile {
+    color: grey;
+    position: fixed;
+    bottom: 0;
+    left: 500px;
+}
