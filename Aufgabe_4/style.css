@@ -1,0 +1,34 @@
+/* Startseite */
+
+#Startseite {
+    background-color:lightgrey;
+}
+
+.Box {
+    width: 200px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    margin: 5px;
+    padding: 25px 25px 25px 25px;
+    background-color:  rgb(2, 152, 211);
+    border-radius: 5px;
+}
+
+.Box:hover {
+    background-color: orange;
+}
+
+
+#StationInhalt{
+    position: relative;
+    left: 25%;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+#StationInhalt:hover{
+    color: grey;
+}

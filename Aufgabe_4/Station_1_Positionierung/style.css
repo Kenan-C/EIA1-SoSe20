@@ -1,0 +1,44 @@
+/* Body */
+
+body {
+    background-image: url(bg.png);
+}
+
+#Container {
+    width:600px;
+    height: 400px;
+    position:relative;
+    top: 150px;
+    left: 325px;
+    z-index: -1;
+}
+
+#Muschel {
+    position: absolute;
+    top: 70%;
+    left: -10%;
+}
+
+#Pinguin {
+    position: absolute;
+    top: 54%;
+    right: -10%;
+}
+
+#Ueberschrift {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+#Text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 12pt;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-break: break-all;
+}

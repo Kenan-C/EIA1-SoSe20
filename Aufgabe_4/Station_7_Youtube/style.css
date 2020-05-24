@@ -1,0 +1,32 @@
+/* Body */
+
+body {
+    width: 500px;
+    height: 100px;
+    background-image: url(bg.png);
+    z-index: -1;
+}
+header{
+    height: 100px;
+}
+
+#Container {
+    width:600px;
+    height: 400px;
+    position:relative;
+    top: 150px;
+    left: 325px;
+    z-index: -1;
+}
+#banderole {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#Video {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}

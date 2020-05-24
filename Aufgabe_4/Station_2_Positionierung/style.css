@@ -1,0 +1,88 @@
+/* Body */
+
+body {
+    width: 500px;
+    height: 300px;
+    background-image: url(bg.png);
+    z-index: -1;
+}
+header{
+    height: 300px;
+}
+
+#Container {
+    width:600px;
+    height: 400px;
+    position:relative;
+    top: 150px;
+    left: 325px;
+    z-index: -1;
+}
+
+#Muschel1 {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    opacity: 1;
+}
+#Muschel1_offen{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    opacity: 0;
+}
+#Muschel1:hover{
+    opacity: 0;
+}
+#Muschel1_offen:hover{
+    opacity: 1;
+}
+
+
+#Muschel2 {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    opacity:1;
+}
+#Muschel2_offen{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    opacity: 0;
+}
+#Muschel2:hover{
+    opacity: 0;
+}
+#Muschel2_offen:hover{
+    opacity: 1;
+}
+
+
+#Muschel3 {
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    opacity: 1;
+}
+
+#Muschel3_offen{
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    opacity: 0;
+}
+#Muschel3:hover{
+    opacity: 0;
+}
+#Muschel3_offen:hover{
+    opacity: 1;
+}
+
+#Ueberschrift {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
