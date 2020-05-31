@@ -46,31 +46,31 @@ var auPro = (auChange / emiaustralia) * 100;
 /* Textausgabe Afrika*/
 console.log("Die Emission von Afrika ist: " + emiafrica + " kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Afrika damit: " + afWelt + "%");
-console.log("Für Afrika hat sich im Vergleich zu 2008 die Emission um " + afPro + "% verändert");
+console.log("Für Afrika hat sich 2018 im Vergleich zu 2008 die Emission um " + afPro + "% verändert");
 console.log("2018 im vergleich zu 2008 sind das " + afChange + " kg CO2");
 /* Textausgabe Südamerika*/
 console.log("Die Emission von Südamerika ist: " + emisouthamerica + " kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Südamerika damit: " + saWelt + "%");
-console.log("Für Südamerika hat sich im Vergleich zu 2008 die Emission um " + saPro + "% verändert");
+console.log("Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + saPro + "% verändert");
 console.log("2018 im vergleich zu 2008 sind das " + saChange + " kg CO2");
 /* Textausgabe Europa*/
 console.log("Die Emission von Europa ist: " + emieurope + " kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit: " + euWelt + "%");
-console.log("Für Europa hat sich im Vergleich zu 2008 die Emission um " + euPro + "% verändert");
+console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um " + euPro + "% verändert");
 console.log("2018 im vergleich zu 2008 sind das " + euChange + " kg CO2");
 /* Textausgabe Nordamerika*/
 console.log("Die Emission von Nordamerika ist: " + eminorthamerica + " kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit: " + naWelt + "%");
-console.log("Für Nordamerika hat sich im Vergleich zu 2008 die Emission um " + naPro + "% verändert");
+console.log("Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + naPro + "% verändert");
 console.log("2018 im vergleich zu 2008 sind das " + naChange + " kg CO2");
 /* Textausgabe Asien*/
 console.log("Die Emission von Asien ist: " + emiasia + " kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Asien damit: " + asWelt + "%");
-console.log("Für Asien hat sich im Vergleich zu 2008 die Emission um " + asPro + "% verändert");
+console.log("Für Asien hat sich 2018 im Vergleich zu 2008 die Emission um " + asPro + "% verändert");
 console.log("2018 im vergleich zu 2008 sind das " + asChange + " kg CO2");
 /* Textausgabe Australien*/
 console.log("Die Emission von Australien ist: " + emiaustralia + " kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Australien damit: " + auWelt + "%");
-console.log("Für Australien hat sich im Vergleich zu 2008 die Emission um " + auPro + "% verändert");
+console.log("Für Australien hat sich 2018 im Vergleich zu 2008 die Emission um " + auPro + "% verändert");
 console.log("2018 im vergleich zu 2008 sind das " + auChange + " kg CO2");
 //# sourceMappingURL=Emissionswerte.js.map
