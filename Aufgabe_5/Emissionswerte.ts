@@ -1,104 +1,110 @@
-/* Emission Africa */
-
-var emiafrica: number = 1.028 + 1.042 + 1.072 + 1.074 + 1.107 + 1.134 + 1.167 + 1.174 + 1.192 + 1.207 + 1.235;
-var africa18: number = 1.235;
-var africa08: number = 1.028;
-var afChange: number = africa08 - africa18;
-
-/* Emission South America */
-
-var emisouthamerica: number = 1.133 + 1.093 + 1.164 + 1.215 + 1.262 + 1.309 + 1.331 + 1.322 + 1.295 + 1.279 + 1.261;
-var southamerica18: number = 1.261;
-var southamerica08: number = 1.133;
-var saChange: number = southamerica08 - southamerica18;
+var world18: number = 1.236 + 1.262 + 4.209 + 6.036 + 16.274 + 2.101;
 
 /* Emission Europe */
 
-var emieurope: number = 4.966 + 4.616 + 4.706 + 4.615 + 4.541 + 4.437 + 4.202 + 4.192 + 4.247 + 4.279 + 4.209;
-var europe18: number = 4.209;
-var europe08: number = 4.966;
-var euChange: number = europe08 - europe18;
+var euro18: number = 4.209;
+var euro08: number = 4.966;
+var euroRe: number = (euro18 / world18) * 100;
+var euroReRound = euroRe.toFixed (2);
+var unterschiedEU: number = 4.209 - 4.966;
+var unterschiedEUAbsolute = unterschiedEU.toFixed (2);
+var euroEmiAnstieg: number = (unterschiedEU / euro18) * 100;
+var euroEmiAnstiegRound = euroEmiAnstieg.toFixed (2);
 
 /* Emission North America */
 
-var eminorthamerica: number = 6.600 + 6.140 + 5.376 + 6.262 + 5.999 + 6.167 + 6.269 + 6.049 + 5.938 + 5.920 + 6.036;
-var northamerica18: number = 6.036;
-var northamerica08: number = 6.600;
-var naChange: number = northamerica08 - northamerica18;
+var noam18: number = 6.036;
+var noam08: number = 6.600;
+var noamRe: number = (noam18 / world18) * 100;
+var noamReRound = noamRe.toFixed (2);
+var unterschiedNA: number = 6.036 - 6.600;
+var unterschiedNAAbsolute = unterschiedNA.toFixed (2);
+var noamEmiAnstieg: number = (unterschiedNA / noam18) * 100;
+var noamEmiAnstiegRound = noamEmiAnstieg.toFixed (2);
+
+/* Emission South America */
+
+var soam18: number = 1.262;
+var soam08: number = 1.133;
+var soamRe: number = (soam18 / world18) * 100;
+var soamReRound = soamRe.toFixed (2);
+var unterschiedSA: number = 1.262 - 1.133;
+var unterschiedSAAbsolute = unterschiedSA.toFixed (2);
+var soamEmiAnstieg: number = (unterschiedSA / soam18) * 100;
+var soamEmiAnstiegRound = soamEmiAnstieg.toFixed (2);
+
+/* Emission Africa */
+
+var afr18: number = 1.236;
+var afr08: number = 1.028;
+var afrRe: number = (afr18 / world18) * 100;
+var afrReRound = afrRe.toFixed (2);
+var unterschiedAfr: number = 1.236 - 1.028;
+var unterschiedAfrAbsolute = unterschiedAfr.toFixed (2);
+var AfrEmiAnstieg: number = (unterschiedAfr / afr18) * 100;
+var AfrEmiAnstiegRound = AfrEmiAnstieg.toFixed (2);
 
 /* Emission Asia */
 
-var emiasia: number = 12.956 + 13.247 + 13.987 + 14.860 + 15.309 + 15.660 + 15.787 + 15.877 + 15.984 + 16.274 + 16.274;
 var asia18: number = 16.274;
 var asia08: number = 12.955;
-var asChange: number = asia08 - asia18;
+var asiaRe: number = (asia18 / world18) * 100;
+var asiaReRound = asiaRe.toFixed (2);
+var unterschiedAsia: number = 16.274 - 12.955;
+var unterschiedAsiaAbsolute = unterschiedAsia.toFixed (2);
+var asiaEmiAnstieg: number = (unterschiedAsia / asia18) * 100;
+var asiaEmiAnstiegRound = asiaEmiAnstieg.toFixed (2);
 
 /* Emission Australia */
 
-var emiaustralia: number = 1.993 + 1.876 + 1.939 + 2.035 + 1.063 + 2.015 + 2.028 + 1.987 + 1.997 + 2.001 + 2.100;
-var australia18: number = 2.100;
+var australia18: number = 2.101;
 var australia08: number = 1.993;
-var auChange: number = australia08 - australia18;
-
-/* Emission Welt */
-
-var emiwelt: number = emiafrica + emisouthamerica + emieurope + eminorthamerica + emiasia + emiaustralia;
-
-var afWelt: number = (emiafrica / emiwelt) * 100;
-var saWelt: number = (emisouthamerica / emiwelt) * 100;
-var euWelt: number = (emieurope / emiwelt) * 100;
-var naWelt: number = (eminorthamerica / emiwelt) * 100;
-var asWelt: number = (emiasia / emiwelt) * 100;
-var auWelt: number = (emiaustralia / emiwelt) * 100;
-
-var afPro: number = (afChange / emiafrica) * 100;
-var saPro: number = (saChange / emisouthamerica) * 100;
-var euPro: number = (euChange / emieurope) * 100;
-var naPro: number = (naChange / eminorthamerica) * 100;
-var asPro: number = (asChange / emiasia) * 100;
-var auPro: number = (auChange / emiaustralia) * 100;
+var australiaRe: number = (australia18 / world18) * 100;
+var australiaReRound = australiaRe.toFixed (2);
+var unterschiedAustralia: number = 2.101 - 1.993;
+var unterschiedAustraliaAbsolute = unterschiedAustralia.toFixed (2);
+var australiaEmiAnstieg: number = (unterschiedAustralia / australia18) * 100;
+var australiaEmiAnstiegRound = australiaEmiAnstieg.toFixed (2);
 
 
-
-
-
-/* Textausgabe Afrika*/
-
-console.log("Die Emission von Afrika ist: " + emiafrica + " kg CO2");
-console.log("Relativ zur Gesamtemission der Welt verursacht Afrika damit: " + afWelt + "%");
-console.log("Für Afrika hat sich 2018 im Vergleich zu 2008 die Emission um " + afPro + "% verändert");
-console.log("2018 im vergleich zu 2008 sind das " + afChange + " kg CO2");
-
-/* Textausgabe Südamerika*/
-
-console.log("Die Emission von Südamerika ist: " + emisouthamerica + " kg CO2");
-console.log("Relativ zur Gesamtemission der Welt verursacht Südamerika damit: " + saWelt + "%");
-console.log("Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + saPro + "% verändert");
-console.log("2018 im vergleich zu 2008 sind das " + saChange + " kg CO2");
 /* Textausgabe Europa*/
 
-console.log("Die Emission von Europa ist: " + emieurope + " kg CO2");
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit: "  + euWelt + "%");
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um " + euPro + "% verändert");
-console.log("2018 im vergleich zu 2008 sind das " + euChange + " kg CO2");
+console.log("Die Emission von Europa ist: " + euro18 + " kg CO2");
+console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit: "  + euroReRound + "%");
+console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um " + euroEmiAnstiegRound + "% verändert");
+console.log("2018 im vergleich zu 2008 sind das " + unterschiedEUAbsolute * 1000 + " kg CO2");
 
 /* Textausgabe Nordamerika*/
 
-console.log("Die Emission von Nordamerika ist: " + eminorthamerica + " kg CO2");
-console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit: "  + naWelt + "%");
-console.log("Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + naPro + "% verändert");
-console.log("2018 im vergleich zu 2008 sind das " + naChange + " kg CO2");
+console.log("Die Emission von Nordamerika ist: " + noam18 + " kg CO2");
+console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit: "  + noamReRound + "%");
+console.log("Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + noamEmiAnstiegRound + "% verändert");
+console.log("2018 im vergleich zu 2008 sind das " + unterschiedNAAbsolute * 1000 + " kg CO2");
+
+/* Textausgabe Südamerika*/
+
+console.log("Die Emission von Südamerika ist: " + soam18 + " kg CO2");
+console.log("Relativ zur Gesamtemission der Welt verursacht Südamerika damit: " + soamReRound + "%");
+console.log("Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + soamEmiAnstiegRound + "% verändert");
+console.log("2018 im vergleich zu 2008 sind das " + unterschiedSAAbsolute * 1000 + " kg CO2");
+
+/* Textausgabe Afrika*/
+
+console.log("Die Emission von Afrika ist: " + afr18 + " kg CO2");
+console.log("Relativ zur Gesamtemission der Welt verursacht Afrika damit: " + afrReRound + "%");
+console.log("Für Afrika hat sich 2018 im Vergleich zu 2008 die Emission um " + AfrEmiAnstiegRound + "% verändert");
+console.log("2018 im vergleich zu 2008 sind das " + unterschiedAfrAbsolute * 1000 + " kg CO2");
 
 /* Textausgabe Asien*/
 
-console.log("Die Emission von Asien ist: " + emiasia + " kg CO2");
-console.log("Relativ zur Gesamtemission der Welt verursacht Asien damit: "  + asWelt + "%");
-console.log("Für Asien hat sich 2018 im Vergleich zu 2008 die Emission um " + asPro + "% verändert");
-console.log("2018 im vergleich zu 2008 sind das " + asChange + " kg CO2");
+console.log("Die Emission von Asien ist: " + asia18 + " kg CO2");
+console.log("Relativ zur Gesamtemission der Welt verursacht Asien damit: "  +asiaReRound + "%");
+console.log("Für Asien hat sich 2018 im Vergleich zu 2008 die Emission um " + asiaEmiAnstiegRound + "% verändert");
+console.log("2018 im vergleich zu 2008 sind das " + unterschiedAsiaAbsolute * 1000 + " kg CO2");
 
 /* Textausgabe Australien*/
 
-console.log("Die Emission von Australien ist: " + emiaustralia + " kg CO2");
-console.log("Relativ zur Gesamtemission der Welt verursacht Australien damit: "  + auWelt + "%");
-console.log("Für Australien hat sich 2018 im Vergleich zu 2008 die Emission um " + auPro + "% verändert");
-console.log("2018 im vergleich zu 2008 sind das " + auChange + " kg CO2");
+console.log("Die Emission von Australien ist: " + australia18 + " kg CO2");
+console.log("Relativ zur Gesamtemission der Welt verursacht Australien damit: "  + australiaReRound + "%");
+console.log("Für Australien hat sich 2018 im Vergleich zu 2008 die Emission um " + australiaEmiAnstiegRound + "% verändert");
+console.log("2018 im vergleich zu 2008 sind das " + unterschiedAustraliaAbsolute * 1000 + " kg CO2");
