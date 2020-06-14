@@ -1,0 +1,158 @@
+body{
+    background-color: #cfcfcf;
+    text-align: center;
+}
+
+/* Drumpad */
+
+#drumpad{
+    width:600px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    margin: auto;
+}
+
+/* Buttons */
+
+#button1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #58aaf1;
+    border-radius: 5px;
+}
+
+#button1:hover {
+    background-color: #f5a54b;
+}
+
+#button2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 175px;
+    top:0;
+    background-color: #58aaf1;
+    border-radius: 5px;
+}
+
+#button2:hover {
+    background-color: #f5a54b;
+}
+
+#button3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 350px;
+    top: 0;
+    background-color: #58aaf1;
+    border-radius: 5px;
+}
+
+#button3:hover {
+    background-color: #f5a54b;
+}
+
+#button4{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 175px;
+    background-color: #58aaf1;
+    border-radius: 5px;
+}
+
+#button4:hover {
+    background-color: #f5a54b;
+
+}
+
+#button5{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 175px;
+    top: 175px;
+    background-color: #58aaf1;
+    border-radius: 5px;
+}
+
+#button5:hover {
+    background-color: #f5a54b;
+
+}
+
+#button6{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 350px;
+    top: 175px;
+    background-color: #58aaf1;
+    border-radius: 5px;
+}
+
+#button6:hover {
+    background-color: #f5a54b;
+
+}
+
+#button7{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 350px; 
+    background-color: #58aaf1;
+    border-radius: 5px;
+}
+
+#button7:hover {
+    background-color: #f5a54b;
+}
+
+#button8{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 175px;
+    top: 350px; 
+    background-color: #58aaf1;
+    border-radius: 5px;
+}
+
+#button8:hover {
+    background-color: #f5a54b;
+}
+
+#button9{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 350px;
+    top: 350px; 
+    background-color: #58aaf1;
+    border-radius: 5px;
+}
+
+#button9:hover {
+    background-color: #f5a54b;
+}
+
+/* Playbutton */
+
+#playbutton{
+    position: absolute;
+    left: 175px;
+    top: 575px;
+}
+
+#playbutton:hover {
+    opacity: 0.5;
+}
+
