@@ -3,7 +3,7 @@
 // Buttons
 
 function playSample (track: string) {
-    var sound = new Audio (track);
+    var sound: HTMLAudioElement = new Audio (track);
     sound.play();
 }
 
@@ -21,10 +21,10 @@ document.querySelector("#button9").addEventListener("click", function () {playSa
 
 function playSong (){
     setInterval (function () {
-        var song = ["kick.mp3", "snare.mp3", "hihat.mp3"];
-        var playKick = new Audio (song[1]);
-        var playSnare = new Audio (song[2]);
-        var playHihat = new Audio (song[3]);
+        var song: string [] = ["kick.mp3", "snare.mp3", "hihat.mp3"];
+        var playKick: HTMLAudioElement = new Audio (song[1]);
+        var playSnare: HTMLAudioElement = new Audio (song[2]);
+        var playHihat: HTMLAudioElement = new Audio (song[3]);
         playKick.play();
         playSnare.play();
         playHihat.play();
