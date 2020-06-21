@@ -23,7 +23,7 @@ document.querySelector("#button9").addEventListener("click", function () {playSa
 // Play & Stopbutton
 
 var playButton: HTMLElement = document.querySelector("#playbutton");
-var music: string [] = ["A.mp3", "C.mp3", "F.mp3", "G.mp3", "A.mp3"];
+var music: string [] = ["kick.mp3", "snare.mp3", "kick.mp3", "snare.mp3", "kick.mp3"];
 var intervalForMusic: number;
 
 function playSong() {

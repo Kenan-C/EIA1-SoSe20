@@ -18,7 +18,7 @@ document.querySelector("#button8").addEventListener("click", function () { playS
 document.querySelector("#button9").addEventListener("click", function () { playSample("snare.mp3"); });
 // Play & Stopbutton
 var playButton = document.querySelector("#playbutton");
-var music = ["A.mp3", "C.mp3", "F.mp3", "G.mp3", "A.mp3"];
+var music = ["kick.mp3", "snare.mp3", "kick.mp3", "snare.mp3", "kick.mp3"];
 var intervalForMusic;
 function playSong() {
     var title = 0;
