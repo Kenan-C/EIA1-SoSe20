@@ -59,5 +59,5 @@ function AufnahmeButton() {
         Aufnahme = true;
     }
 }
-// Inspiriert durch EIA Praktikum vom 19.06.20 mit Hilfe von Hannah, Herr Rausch, Annette, Moritz, Andy
+// Inspiriert vom EIA Praktikum am 19.06.20 durch Hannah, Herr Rausch, Annette, Moritz, Andy
 //# sourceMappingURL=musicbuttons.js.map
