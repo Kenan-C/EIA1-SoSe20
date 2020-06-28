@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(74, 145, 74);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Inhalt */
+
+#Liste {
+    position: relative;
+    top: 20px;
+    letter-spacing: -1px;
+    font-size: 24pt;
+    color: white;
+}
+
+#Inhalt {
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    width: 500px;
+    left: 370px;
+    color: white;
+    font-size: 20pt;
+}
+
+#Anzeige{
+    position: relative;
+    top: 50px;
+}
+
+/* Textfeld und Button*/
+
+#Textfeld {
+    position: relative;
+    width: 200px;
+    height: 25px;
+    font-size: 12pt;
+    font-weight: bold;
+    right: 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+#HinzuButton {
+    position: relative;
+    width: 150px;
+    height: 25px;
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: navajowhite;
+    left: 20px;
+    top: 0px;
+}
+
+#HinzuButton:hover {
+    color: orange;
+}
+
+/* Checkbox */
+
+#klick {
+    position: relative;
+    right: 20px;
+    bottom: 3px;
+}
+
+/* Löschbutton */
+
+#trash {
+    color: navajowhite;
+    position: relative;
+    left: 10px;
+    opacity: 0.8;
+}
+
+#trash:hover {
+    opacity: 1;
+    color: orange;
+}
+
