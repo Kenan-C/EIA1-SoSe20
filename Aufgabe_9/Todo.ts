@@ -27,7 +27,6 @@ function Hinzufügen (): void {
 // Mit Hilfe von Markus, problem mit Eventlistener am Löschbutton gelöst.
 // Habe es aber nicht hinbekommen, dass sich die einzelnen Aufgaben löschen lassen sondern nur komplett.
 
-var index;
 var trash = document.querySelectorAll("#trash");
 
 for (i = 0; i < aufgaben.length ; i++) {

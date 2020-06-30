@@ -15,10 +15,9 @@ function Hinzufügen() {
     i++;
     console.log(aufgaben);
 }
-// Leider funktioniert mein Löschbutton immernoch nicht richtig. 
-// Mit Hilfe von Markus, problem mit Eventlistener am Löschen-Icon gelöst.
+// Leider funktionieren die Löschbutton immernoch nicht richtig. 
+// Mit Hilfe von Markus, problem mit Eventlistener am Löschbutton gelöst.
 // Habe es aber nicht hinbekommen, dass sich die einzelnen Aufgaben löschen lassen sondern nur komplett.
-var index;
 var trash = document.querySelectorAll("#trash");
 for (i = 0; i < aufgaben.length; i++) {
     trash[i].addEventListener("click", Löschen);
