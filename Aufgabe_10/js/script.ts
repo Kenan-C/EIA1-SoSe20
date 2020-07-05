@@ -1,3 +1,5 @@
+// Mit Hilfe von Hannah im EIA1-Praktikum am 03.07.20
+
 /**
  * Die ToDos werden in dem Array todosText gespeichert
  * Jedes ToDo hat aber, neben dem ToDo-Text, einen zweiten
@@ -174,7 +176,6 @@ function toggleCheckState(index: number): void {
      */
     drawListToDOM();
 }
-
 /**
  * Diese Funktion löscht ein ToDo
  */
