@@ -1,8 +1,8 @@
 // Mit Hilfe von Hannah im EIA1-Praktikum am 03.07.20 und 10.07.20
 var aufgabenliste = [
-    { Todo: "Lorem", Checked: true },
-    { Todo: "Ipsum", Checked: false },
-    { Todo: "Dolor", Checked: false }
+    { Todo: "Einkaufen", Checked: true },
+    { Todo: "Essen", Checked: false },
+    { Todo: "Auto waschen", Checked: false }
 ];
 /**
  * Die Anwendung wird immer wieder auf die selben
@@ -82,16 +82,16 @@ function drawListToDOM() {
 }
 function updateCounter() {
     var offeneAufgabe = 0;
-    var fertigeAufgabe = 0;
+    var erledigteAufgabe = 0;
     for (let index = 0; index < aufgabenliste.length; index++) {
         if (aufgabenliste[index].Checked == true) {
-            fertigeAufgabe++;
+            erledigteAufgabe++;
         }
         else {
             offeneAufgabe++;
         }
     }
-    counterDOMElement.innerHTML = aufgabenliste.length + " in total | " + offeneAufgabe + " open | " + fertigeAufgabe + " done";
+    counterDOMElement.innerHTML = "(Anzahl Aufgaben: " + aufgabenliste.length + ") (Noch zu erledigen: " + offeneAufgabe + ") (Erledigte Aufgaben: " + erledigteAufgabe + ")";
 }
 /**
  * Ein neues ToDo wird folgendermaßen erstellt:

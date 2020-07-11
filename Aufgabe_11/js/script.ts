@@ -20,9 +20,9 @@ interface Aufgaben {
 }
 
 var aufgabenliste: Aufgaben [] = [
-    {Todo: "Lorem", Checked: true},
-    {Todo: "Ipsum", Checked: false},
-    {Todo: "Dolor", Checked: false}
+    {Todo: "Einkaufen", Checked: true},
+    {Todo: "Essen", Checked: false},
+    {Todo: "Auto waschen", Checked: false}
 ];
 
 
@@ -37,6 +37,7 @@ var inputDOMElement: HTMLInputElement;
 var addButtonDOMElement: HTMLElement;
 var todosDOMElement: HTMLElement;
 var counterDOMElement: HTMLElement;
+
 
 /**
  * Sobald der DOM geladen wurde können grundlegende DOM-Interaktionen
@@ -53,6 +54,7 @@ window.addEventListener("load", function(): void {
     addButtonDOMElement = document.querySelector("#addButton");
     todosDOMElement = document.querySelector("#todos");
     counterDOMElement = document.querySelector("#counter");
+
 
     /**
      * Jetzt da der DOM verfügbar ist kann auch ein Event-Listener
@@ -117,18 +119,18 @@ function drawListToDOM(): void {
 function updateCounter(): void {
     
     var offeneAufgabe: number = 0;
-    var fertigeAufgabe: number = 0;
+    var erledigteAufgabe: number = 0;
 
     for (let index = 0; index < aufgabenliste.length; index++) {
         if (aufgabenliste[index].Checked == true) {
-            fertigeAufgabe++;
+            erledigteAufgabe++;
         }
     else {
         offeneAufgabe++;
     }
     }
 
-    counterDOMElement.innerHTML = aufgabenliste.length + " in total | " + offeneAufgabe + " open | " + fertigeAufgabe + " done";
+    counterDOMElement.innerHTML = "(Anzahl Aufgaben: " + aufgabenliste.length + ") (Noch zu erledigen: " + offeneAufgabe + ") (Erledigte Aufgaben: " + erledigteAufgabe + ")";
 
 }
 
